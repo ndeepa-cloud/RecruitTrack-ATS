@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Candidate Resumes & File Uploads
+uploads/*
+!uploads/.gitkeep
+uploads/resumes/*
+!uploads/resumes/.gitkeep
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Diagnostics
+*.log
+*.sqlite
+*.dump
+*.sql.bak
+*.tar.gz
+
+# Operating System & IDE
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
